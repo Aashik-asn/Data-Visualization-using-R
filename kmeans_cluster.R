@@ -1,7 +1,7 @@
 install.packages("factoextra")
 library("factoextra")
 
-mydata=read.csv("C:/External/Nanna/Code/R/dataset/USArrest.csv")
+mydata=read.csv("dataset/USArrest.csv")
 head(mydata)
 tail(mydata)
 str(mydata)
