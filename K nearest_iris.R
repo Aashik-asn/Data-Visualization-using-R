@@ -5,7 +5,7 @@ library(caTools)
 library(class)
 library(ggplot2)
 
-iris<-read.csv("C:/External/Nanna/Code/R/dataset/iris.csv")
+iris<-read.csv("dataset/iris.csv")
 head(iris)
 tail(iris)
 str(iris)
