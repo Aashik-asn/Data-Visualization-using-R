@@ -3,7 +3,7 @@ library(ggplot2)
 library(caret)
 library(dplyr)
 
-titanic<-read.csv("C:/External/Nanna/Code/R/dataset/titanic.csv")
+titanic<-read.csv("dataset/titanic.csv")
 head(titanic)
 tail(titanic)
 str(titanic)
