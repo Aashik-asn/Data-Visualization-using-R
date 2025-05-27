@@ -13,7 +13,7 @@ titanic=na.omit(titanic)
 
 titanic$Pclass=factor(titanic$Pclass,order=TRUE,levels=c(3,2,1))
 titanic$Survived=factor(titanic$Survived)
-
+#Plotting
 ggplot(titanic,aes(x=Survived))+
   geom_bar(width=0.5,fill="coral")+
   geom_text(stat='count',aes(label=stat(count)),vjust=-0.5)+theme_classic()
